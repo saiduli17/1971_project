@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ৭১-এর মুক্তিযুদ্ধ */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.bg_color{
+    background-color: #dcdde1;
+}
+.t_left{text-align: left;}
+.t_right{text-align: right;}
+.t_center{text-align: center;}
+.t_justifyt{text-align: justify;}
+
+/* Header Area Start */
+
+.header_area {
+    overflow: hidden;
+    padding: 10px 0;
+    background-color: #dcdde1;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.logo h1 {
+    font-size: 40px;
+    color: green;
+}
+.logo span {
+    color: #EA2027;
+    position: absolute;
+    top: -14px;
+    left: 35px;
+    font-size: 60px;
+}
+.header_area .menu{
+    width: 70%;
+    float: right;
+}
+.main_menu ul{
+    list-style: none;
+    text-align: right;
+}
+.main_menu ul li{
+    display: inline-block;
+}
+.main_menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #009432;
+    font-weight: 600;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-top: 11px;
+    padding: 10px 15px;
+}
+/* Header Area End */
+
+/* Bg Area Start */
+ .bg_area{
+    background-image: url(img/bd_img.jpg);
+    padding: 150px 0;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+ }
+
+.bg_area h2{
+   font-size: 30px;
+   font-weight: 600;
+   color: #d1d8e0;
+}
+.bg_area p{
+    color: #a5b1c2;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px 0px;
+    white-space: pre;
+}
+#myname {
+    color: #a5b1c2;
+    position: absolute;
+    top: 318px;
+    font-size: 28px;
+    right: 430px;
+}
+.bg_area p span {
+    font-size: xx-large;
+    display: inline-block;
+    margin-left: 4px;
+    color: green;
+    font-weight: 600;
+}
+q::before {
+    color: red;
+    font-weight: 600;
+    font-size: xx-large;
+}
+q::after {
+    color: red;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 30px 0;
+    color: #eb2f06;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #d1d8e0;
+    font-weight: 600;
+
+    transition: .5s;
+    
+}
+
+
+.button:hover{
+    background-color: #eb2f06;
+    color: #dcdde1;
+}
+
+
+/* Bg Area End */
+
+/* history area start */
+.basic{
+    background-color: #fff;
+    box-shadow: 0 0 5px green;
+
+}
+.history_area{
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.history_area h2 {
+    margin: 40px 0;
+    color: #44bd32;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.bd_history_img{
+    float: left;
+    width: 35%;
+}
+.bd_history_img img{
+    width: 100%;
+}
+.bd_history{
+    float: right;
+    width: 55%;
+}
+.bd_history_h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #e84118;
+    margin: 0 0 15px 0;
+}
+.bd_history_p {
+    line-height: 27px;
+    word-spacing: 4px;
+    font-size: 15px;
+}
+
+/* history area End */
+
+/* history section 2 start */
+.history_area_2{
+    overflow: hidden;
+    margin: 40px 0;
+}
+.bd_history_2{
+    float: left;
+    width: 55%;
+}
+.bd_history_img_2{
+    float: right;
+    width: 35%;
+}
+.bd_history_img_2 img {
+    width: 400px;
+    height: 500px;
+}
+
+/* history section 2 end */
+
+/* captains card_area start */
+
+.captain_card_area {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+/* .card_title{
+    background: #fff;
+    box-shadow: 0px 0px 10px #ddd;
+} */
+.card_title h2 {
+    color: #44bd32;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0 0px 0;
+    padding: 20px 0px 0 0;
+}
+.card_title p {
+    padding: 15px 0px;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #ff4757;
+    font-weight: 600;
+}
+
+.captains_card {
+    background: #fff;
+    box-shadow: 0 0 9px #ddd;
+    padding: 0px 60px 30px 60px;
+    overflow: hidden;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+}
+
+.captain_card {
+    float: left;
+    width: 30%;
+    padding: 10px 10px;
+    margin-right: 29px;
+    margin-bottom: 20px;
+    background-color: #7bed9f;
+    box-shadow: 5px 5px 5px #ddd;
+    border-radius: 10px;
+    transition: .5s;
+}
+.captain_card:hover {
+    transform: scale(1.1);
+}
+.captain_card h2{}
+.captain_card p {
+    padding: 0px 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    white-space: wrap;
+}
+.captain_card img {
+    width: 150px;
+    margin-top: 15px;
+}
+
+/* .captain_card a{
+    display: inline-block;
+    text-decoration: none;
+    color: #44bd32;
+    background: #fff;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 20px 5px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 3px #ddd;
+    transition: .5s;
+}
+.captain_card a:hover{
+    color: #fff;
+    background-color: red;
+    
+}
+
+
+/* captains card_area end */
+.contact_bg {
+    background-image: url(img/bd-flag.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+}
+/* contact_content_area Start */
+.content_area{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact_content h2 {
+    font-size: 35px;
+    color: #fff;
+    padding: 10px 0;
+}
+.contact_content p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #dfe6e9;
+}
+
+/* contact_content_area end */
+
+/* contact_area start */
+
+.contact_area{
+    width: 80%;
+    margin: 0 auto;
+}
+.contact_details{
+    float: left;
+    width: 35%;
+}
+.contact_div {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.icon {
+    float: left;
+    width: 32%;
+    height: 50px;
+    width: 50px;
+    background: #009432;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: #f53b57;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.address{
+    float: left;
+    width: 70%;
+}
+.address h3{
+    color: chartreuse;
+    font-weight: 600;
+    font-size: 25px;
+}
+.address p{
+    color: #f5f6fa;
+    font-size: 18px;
+    font-weight: 600;
+    width: 80%;
+}
+
+.contact_form {
+    top: 140px;
+    right: 30px;
+    width: 50%;
+    height: 360px;
+    background: rgb(255, 82, 82);
+    padding: 20px;
+    position: absolute;
+}
+input[type="text"] { 
+    border: 1px solid #ddd; 
+    box-shadow: 0 0 5px #ddd;
+    width: 100%; 
+    padding: 10px 10px;
+}
+input[type="email"] { 
+    border: 1px solid #ddd; 
+    box-shadow: 0 0 5px #ddd;
+    width: 100%; 
+    padding: 10px 10px;
+    
+}
+.input_box textarea {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px #ddd;
+    margin: 15px 0;
+}
+.contact_form h2{}
+.input_box{}
+.input_box span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2d3436;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: .5s;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background: #009432;
+    color: #EA2027;
+}
+/* contact_area end */
+
+/* copyright_area Start */
+.copyright_area h4{
+    padding: 15px 0;
+    color: black;
+    background-color: #9E9E9E;
+}   
+/* copyright_area end */
